@@ -1,0 +1,20 @@
+name: "pfdump"
+version: "1.0.0"
+author: "n01e0 <reoshiseki@gmail.com>"
+about: "process's opening file dumper"
+
+args:
+  - pid:
+      help: "target process id"
+      takes_value: true
+      required: true
+
+  - regular:
+      help: "logging(and copy) only regular files"
+      short: r
+      long: regular
+
+  - copy:
+      help: "copy file to cwd"
+      short: c
+      long: copy

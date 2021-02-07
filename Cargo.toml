@@ -3,6 +3,8 @@ name = "pfdump"
 version = "0.1.0"
 authors = ["n01e0 <reoshiseki@gmail.com>"]
 edition = "2018"
+license-file = "LICENSE"
+description = "process file dump"
 
 # See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
 
